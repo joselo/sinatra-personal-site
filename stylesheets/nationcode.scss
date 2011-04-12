@@ -1,0 +1,126 @@
+$main-font: "minion-pro-1","minion-pro-2","Times New Roman",Georgia,serif;
+$status-color: #888;
+
+@mixin paragraph{
+  text-align:justify;
+  line-height: 1.25em;
+  font-size: 22px;
+  color: #333;
+}
+
+@mixin title{
+  font-size:38px;
+  color: #232323;
+}
+
+
+body{
+  background: #fbfbfb url(../images/background.png) repeat-y center;
+}
+
+body, h1, h2, h3, h4, h5, p {
+    font-family: $main-font;
+}
+
+h2{
+  @include title;
+}
+
+h3{
+  font-size:13px;
+  text-transform: uppercase;
+  letter-spacing:3px;
+  font-weight:500;
+  margin:0;
+  &.with-space{
+    margin-top:50px;
+  }
+}
+
+
+h5{
+  color: #ccc;
+  margin:0 0 20px 0;
+  font-size:18px;
+  font-weight:100;
+}
+
+ul.menu{
+  margin: 0;
+  padding: 0;
+  li{
+    display: inline;
+    list-style-type: none;
+    font-size:18px;
+    padding: 0 9px 0 6px;
+    border-right: 1px solid #d4d4d4;
+  }
+  li.last{
+    border-right:none;
+  }
+}
+
+.container{
+  text-align: center;
+}
+
+
+.align-right{
+  text-align: right;
+}
+
+.container p{
+  @include paragraph;
+  &.go-top{
+    text-align:right;
+    font-size:12px;
+    a,a:visited, a:focus{
+      color:#999;
+    }
+    a:hover{
+      color:#333;
+    }
+  }
+}
+
+.menu{
+  margin: 10px 0;
+}
+
+.logo{
+  margin: 40px 0;
+}
+
+.status{
+  margin: 20px 0 40px 0;
+  color: $status-color;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 500;
+}
+
+.status .alt{
+  font-size: 14px;
+}
+
+hr{
+  border:none;
+  background: transparent url(../images/hr.png) no-repeat center;
+  height: 12px;
+  margin: 0 0 25px 0;
+}
+
+p.logos-experience, p.time-zone{
+  text-align:center;
+  margin-top: 20px;
+}
+
+.footer{
+  font-size: 14px;
+  color: #999;
+  margin: 40px 0;
+}
+
+
+
+
