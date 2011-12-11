@@ -1,8 +1,85 @@
 !!!  
 %html  
-  %head  
-    %title My Sinatra Website
-  %body  
-    %h1 Welcome XD
-    %p  
-      Welcome to my website made with Sinatra and HAML  
+  %head
+    %title Ruby on Rails Developer
+    %meta{:content => "text/html; charset=utf-8", "http-equiv" => "Content-type"}
+    %meta{:content => "web developer, programmer, freelance, freelancer, ruby on rails, php, rails, ruby, independent, autonomous, xhtml, java, css, javascript, jquery", :name => "keywords"}
+    %meta{:content => "Freelance Web Developer Ruby on Rails, Javascript XHTML CSS Layout. Web application programmer independent or autonomous", :name => "description"}
+
+    %meta{:content => "width=device-width, initial-scale=1.0", :name => "viewport"}
+    /[if lte IE 9] <link rel="stylesheet" href="cssgrid/css/ie.css" type="text/css" media="screen" />
+    %link{:href => "cssgrid/css/1140.css", :media  => "screen", :rel => "stylesheet", :type => "text/css"}
+    %link{:charset => "utf-8", :href => "stylesheets/style.css", :media => "screen, protection", :rel => "stylesheet", :title => "no title", :type => "text/css"}
+    %script{:src => "cssgrid/js/css3-mediaqueries.js", :type => "text/javascript"}
+
+  %body
+
+    %script{:src => "http://www.google-analytics.com/urchin.js", :type => "text/javascript"}
+    :javascript
+      _uacct = "UA-804569-2";
+      urchinTracker();  
+
+    .nav
+
+    .container.content
+      .row.header
+        .sixcol
+          %img{:src => 'images/main.png'}
+
+        .sixcol.last
+          %p
+            Hi, I'm José Carrión, a Web Developer, who loves minimalist clean and simple things, basketball and football player, fan art and rock music.
+
+      .row
+        .twelvecol.border
+
+      .row
+        .twelvecol
+
+          %h2 Ok, ok... so, how you can help me?
+          %p
+            I've been working with 
+            %a{:href => 'http://rubyonrails.org', :target => '_blank'} Ruby on Rails 
+            for 4 years, a  
+            %a{:href=> 'http://www.ruby-lang.org', :target => '_blank'} Ruby 
+            Framework to write awesome Web Applications, following the best programming practices and supported for a really cool community of developers around the world.
+          
+          %h2 You mean you have experience? 
+          %p
+            Yeah sure, As you know, learning never ends, since I finished my studies I've been working as a Freelance part time and full time from my house and sometimes traveling, It has allowed me knows really nice developers and companies around the world, I've learned tons of best practices to build applications.
+          %p
+            I've worked in private projects and public projects for companies from my country and for other countries such as Chile, Spain and United States.
+
+          %h2 Ok, where I can see that you aren't kidding me?
+          %p
+            Here are the most important profiles, I guess
+
+          %p
+            %ul.profiles
+              %li.linkedin
+                %a{:href => 'http://www.linkedin.com/in/joselo', :target => '_blank'} linkedin.com/in/joselo
+              %li.github
+                %a{:href => 'http://github.com/joselo', :target => '_blank'} github.com/joselo
+              %li.twitter
+                %a{:href => 'http://www.twitter.com/joselo', :target => '_blank'} twitter.com/joselo
+
+          %h2 Tell me, where are you based? 
+
+          %p
+            I'm based in South America Ecuador, Eastern Standard Time GMT- 5:00
+
+          %p
+            Feel free to write me to: 
+            %a{:href=> "mailto:joseloc@gmail.com"} joseloc@gmail.com
+
+          %h2.last That’s it folks, thanks...
+
+    .container.container.footer
+      .row
+        .twelvecol.border
+
+      .row
+        .twelvecol
+
+          %p
+            Copyright (c) 2011, José Carrión

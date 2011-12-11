@@ -3,7 +3,7 @@ source "http://rubygems.org"
 
 gem "sinatra"
 gem "haml"
-gem "compass"
 gem "sass"
 
+gem "shotgun"
 gem "heroku"

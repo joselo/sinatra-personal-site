@@ -1,0 +1,62 @@
+body, h1, h2, h3, h4, h5, p {
+  background: transparent url("../images/tile.gif");
+  font-family: "minion-pro-1", "minion-pro-2", "Times New Roman", Georgia, serif;
+  font-size: 24px;
+  color: #777777;
+  text-shadow: 0 1px 0 white; }
+
+a:link, a:visited {
+  font-weight: bold;
+  color: #4083a9;
+  outline: none;
+  text-decoration: none; }
+
+h2 {
+  font-size: 38px;
+  color: #444444;
+  margin: 30px 0 0 0; }
+  h2.last {
+    margin-bottom: 30px; }
+
+div.header {
+  padding: 30px 0; }
+  div.header img {
+    position: relative;
+    left: 20%;
+    top: 50%;
+    text-align: right;
+    margin: 0 auto; }
+  div.header p {
+    text-align: left;
+    font-weight: bold;
+    font-size: 150%;
+    color: #444444; }
+
+.footer p {
+  font-size: 70%;
+  text-align: right; }
+
+.border {
+  margin: 30px;
+  border-top: 1px solid #dddddd; }
+
+.nav {
+  height: 2px;
+  background: #777777; }
+
+p {
+  text-align: justify;
+  color: #555555;
+  padding: 10px;
+  line-height: 1.25em; }
+
+ul.profiles li {
+  padding: 5px 0 24px 43px;
+  height: 24px;
+  line-height: 1.25em; }
+  ul.profiles li.linkedin {
+    background: transparent url("../images/linkedin.png") top left no-repeat; }
+  ul.profiles li.github {
+    background: transparent url("../images/github.png") top left no-repeat; }
+  ul.profiles li.twitter {
+    background: transparent url("../images/twitter.png") top left no-repeat; }
